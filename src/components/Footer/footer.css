@@ -35,6 +35,9 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    align-items: flex-start;
+    text-align: start;
+   margin-left: 20px;
    
 }
 .items-container p:hover{
