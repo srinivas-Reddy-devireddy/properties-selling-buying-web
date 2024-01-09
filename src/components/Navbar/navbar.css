@@ -1,0 +1,164 @@
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   
+  }
+  
+  header {
+    background-color:white;
+    /* color: white; */
+    position: relative;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+
+  /* .propertyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+   
+   
+  } */
+  .nav-container{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+   
+  }
+  .drop{
+display: flex;
+flex-direction: column;
+background-color: white;
+width: 50px;
+height: 90px;
+position: absolute;
+align-items: flex-start;
+}
+.list-items-drop{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: self-start;
+  margin-top: -46px;
+  list-style-type:square;
+  padding: 5px;
+  background-color: white;
+  width: 155px;
+  height: 105px;
+  margin-left: -92px;
+  border: 2px solid white;
+    box-shadow: 1px 1px 1px 1px lightblue;
+    border-radius: 3px;
+}
+.list-items-drop li{
+  margin-bottom: 9px;
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+  font-weight: 500;
+  
+}
+.list-items-drop li:hover{
+ color: blue;
+ text-decoration: underline;
+  
+}
+  
+  
+  /* .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  } */
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 25px;
+  }
+  
+  nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  nav ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+
+
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .logo :link:hover{
+    text-decoration: none;
+    
+  }
+  /* hr{
+    border: none;
+    width: 90%;
+    height: 3px;
+    border: 10px;
+    background: #ff4141;
+    margin-top: -6px;
+    cursor: pointer;
+  
+  } */
+  
+  .logo h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#151515, rgb(90, 3, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .logo h2 span {
+    font-size: 2.8rem;
+  }
+  
+  .logo img {
+    width:200px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 120px;
+  }
+  
+  .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
