@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './home.css'
-import Sliders from '../Sliders/Sliders';
+// import Sliders from '../Sliders/Sliders';
 import Properties from '../Properties/Properties';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
+import { ReadyforProperty } from '../ReadyProperties/ReadyforProperty';
+import DropdownMenu from '../DropdownMenu';
 const Home = () => {
   return (
     <>
@@ -14,7 +16,8 @@ const Home = () => {
        
        
        <div className='silders-container'>
-       <Sliders/>
+       {/* <Sliders/> */}
+       <DropdownMenu/>
      {/* <img src="https://cdn.pixabay.com/animation/2023/03/28/02/15/02-15-52-868_512.gif" alt="Logo" className='img' /> */}
        </div>
 
@@ -33,6 +36,7 @@ const Home = () => {
 
   
      </div>
+     <ReadyforProperty/>
      <Properties/>
      <Footer/>
     </div>

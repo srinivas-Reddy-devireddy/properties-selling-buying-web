@@ -2,9 +2,11 @@ import React, { useRef, useState } from "react";
 import { Link } from 'react-router-dom';
 import { IoMdArrowDropdown } from "react-icons/io";
 import './navbar.css'
+import Dashboard from "../Dashboard";
 // import Dropdown from "../Dropdown";
 const Navbar = () => {
     const [opne ,setOpen]=useState(false)
+    
  const menuRef=useRef()
  const imgRef=useRef()
  window.addEventListener('click',(e)=>{
@@ -50,8 +52,12 @@ const Navbar = () => {
           <li><Link to="/home">Service</Link></li>
           <li><Link to="/about">Contact</Link></li>
           {/* <Dropdown/> */}
+         
         </ul>
+       
       </nav>
+      <Dashboard/>
+          
     </header>
   );
 };

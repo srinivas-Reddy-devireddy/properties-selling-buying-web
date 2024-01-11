@@ -1,13 +1,17 @@
 import React from "react";
+import { IoMdArrowDropdown } from "react-icons/io";
 import './dropdown.css'
 const DropdownMenu = () => {
   return (
     <div className="dropdown-menu">
-      <ul className="ul">
-        <li>Menu 1</li>
-        <li>Menu 2</li>
-        <li>Menu 3</li>
-      </ul>
+      <div>
+      <input placeholder="Search location..."/>
+     <IoMdArrowDropdown size={25}/>
+      </div>
+      <div>
+        <button> FOR SALE</button><button>FOR RENT</button><button>FOR BOOK</button>
+      </div>
+     
     </div>
   );
 };

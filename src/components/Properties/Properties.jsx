@@ -23,6 +23,10 @@ const Properties = () => {
     <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBdKlXUd_EomQ0p6ENjAcP3qaGOlEoqEDBw&usqp=CAU' alt="home" />
     <p className="secondaryText">Commercial space</p>
   </div>
+  <div className="card">
+    <img src='https://www.teamactivators.com/wp-content/uploads/2018/12/Untitled-design-81.jpg' alt="home" />
+    <p className="secondaryText">Resorts</p>
+  </div>
     </div>
     </div>
     

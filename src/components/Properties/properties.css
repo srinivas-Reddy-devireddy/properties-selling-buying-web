@@ -12,11 +12,12 @@
 .card-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     text-align: center;
-    width: 90%;
+    justify-content: center;
+    width: 100%;
     padding: 20px;
-    gap: 32px;
+    gap: 8px;
+    flex-wrap: wrap;
 
 }
 
@@ -40,7 +41,7 @@
 }
 
 .card img{
-   width: 280px;
+   width: 260px;
    border-radius: 10px;
 
 }
